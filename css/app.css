@@ -1,0 +1,24 @@
+.board {
+
+}
+
+.row {
+  display: table;
+}
+
+.row:nth-child(even) {
+  padding-left: 39px;
+}
+
+.cell {
+  display: table-cell;
+  color: #bbada0;
+  font-size: 100px;
+  text-align: center;
+  line-height: 66px;
+  letter-spacing: -16px;
+}
+
+.cell:hover {
+  color: #eee4da;
+}
